@@ -1,0 +1,108 @@
+
+#Navigointi ul{
+  padding-right:30px;
+  list-style:none;
+}
+
+/* tällä saisi navigointinappulat riviin:
+#Navigointi li{
+  display:inline;
+  }
+  */
+
+#Navigointi a{
+color:white;
+text-decoration:none;
+font-size: 18px;
+padding-right:0;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+#sidebar{
+float:right;
+widows: 30%;
+background: #333;
+color: #fff;
+padding: 10px;
+box-sizing: border-box;
+text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body {
+/*
+  background-color: white;*/
+  
+  height: 100%;
+  background: linear-gradient(to left, #fff 83%, #ea9215 17%);
+  font-family: Arial, Helvetica, sans-serif;
+  /*line-height: 1.6em;*/
+  margin:0;
+  }
+  
+h1 {
+    color:#ea9215;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    letter-spacing: 5px;
+    }
+ 
+h2 {
+  display:inline-block;
+}
+
+#Minna {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        }
+    
+.Container{
+  width:60%; 
+  margin:auto;
+  overflow:hidden;
+  padding:2em;
+  color: #333;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  }
+
+#main-footer{
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+button{
+  width: 60px;
+  padding: 10px;
+  text-align:center;
+  background:#333;
+  font-size: 14px;
+  color: #fff;
+  float:right;
+}
+
+  }
